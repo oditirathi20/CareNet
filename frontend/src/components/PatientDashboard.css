@@ -1,0 +1,71 @@
+/* PatientDashboard specific styles */
+.dashboard-container {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.registration-form {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.data-section {
+  transition: all 0.3s ease;
+}
+
+.data-section:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.data-row, .data-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.data-row:last-child, .data-field:last-child {
+  border-bottom: none;
+}
+
+.data-label {
+  font-weight: 600;
+  color: #4a5568;
+  min-width: 150px;
+}
+
+.data-value {
+  color: #2d3748;
+  text-align: right;
+  flex: 1;
+}
+
+.highlight-cost {
+  color: #e53e3e;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background: #fff5f5;
+  border-radius: 6px;
+}
