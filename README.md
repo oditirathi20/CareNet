@@ -26,7 +26,7 @@ Unlike generic AI that gives you black-box answers, CareNet uses **Retrieval-Aug
 2. **Doctors** - Access assigned patients, create evidence-based treatment plans
 3. **Loop Medical Advisors** - Validate treatments using AI, detect fraud before claims are paid
 
-### The RAG System (Our Secret Sauce)
+### The RAG System
 
 We've uploaded 5 authoritative Indian medical documents to our knowledge base:
 - **CGHS Handbook** (treatment protocols and rates)
@@ -140,7 +140,7 @@ loop_hackathon/
 └── README.md                        # You are here!
 ```
 
-## 🎭 User Journeys
+##  User Journeys
 
 ### As a Patient (PAT009 - Rajesh Kumar)
 
@@ -176,7 +176,7 @@ loop_hackathon/
 5. **Review Sources:** Scroll to "Medical Guidelines Referenced" section
 6. **Make Decision:** Approve, request revision, or reject claim
 
-## 🧠 The AI Analysis Report
+## The AI Analysis Report
 
 When you click "Analyze Treatment Plan," you get a professional medical validation report with four sections:
 
@@ -206,7 +206,7 @@ When you click "Analyze Treatment Plan," you get a professional medical validati
 - Document categories (Treatment Protocols, Essential Medicines, etc.)
 - Provides audit trail for decisions
 
-## 🎬 Demo Scenarios (For Your Video/Presentation)
+##  Demo Scenarios (For Your Video/Presentation)
 
 We've created three perfect patients to showcase CareNet's capabilities:
 
@@ -267,30 +267,30 @@ Gemini AI analyzes with context → Generates report with citations
 Frontend displays report → Advisor makes decision
 ```
 
-## 🏆 Hackathon Highlights
+##  Hackathon Highlights
 
 ### Innovation Points
-✨ **RAG Implementation** - Not just generic AI, but context-aware analysis  
-✨ **Explainable AI** - Every recommendation cites official guidelines  
-✨ **Dual Detection** - Catches both over-treatment AND under-treatment  
-✨ **Real Medical Documents** - Uses actual CGHS, ICMR, NLEM, IRDAI standards  
-✨ **Professional Reports** - Medical-grade validation documents  
+ **RAG Implementation** - Not just generic AI, but context-aware analysis  
+ **Explainable AI** - Every recommendation cites official guidelines  
+ **Dual Detection** - Catches both over-treatment AND under-treatment  
+ **Real Medical Documents** - Uses actual CGHS, ICMR, NLEM, IRDAI standards  
+ **Professional Reports** - Medical-grade validation documents  
 
 ### Technical Complexity
-🔧 **PDF Processing** - Extracts and indexes medical guidelines  
-🔧 **Custom Prompting** - Engineered prompts for fraud detection  
-🔧 **Role-Based Access** - Patient/Doctor/Advisor dashboards  
-🔧 **File Upload** - Patients can attach medical documents  
-🔧 **Responsive Design** - Works on desktop and mobile  
+ **PDF Processing** - Extracts and indexes medical guidelines  
+ **Custom Prompting** - Engineered prompts for detection  
+ **Role-Based Access** - Patient/Doctor/Advisor dashboards  
+ **File Upload** - Patients can attach medical documents  
+ **Responsive Design** - Works on desktop and mobile  
 
 ### Real-World Impact
-💼 **₹68B Problem** - Addresses massive healthcare fraud issue  
-💼 **Patient Safety** - Detects under-treatment  
-💼 **Insurer Protection** - Pre-payment fraud detection  
-💼 **Doctor Support** - Transparent validation protects practitioners  
-💼 **Scalable** - Can integrate with real insurance systems  
+ **₹68B Problem** - Addresses massive healthcare issue  
+ **Patient Safety** - Detects under-treatment  
+ **Insurer Protection** - Pre-payment detection  
+ **Doctor Support** - Transparent validation protects practitioners  
+ **Scalable** - Can integrate with real insurance systems  
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### "Failed to analyze treatment" error
 - **Check:** Is the AI server running? Look for "Server ready!" message
@@ -316,7 +316,7 @@ Frontend displays report → Advisor makes decision
 - **Fix:** Make sure you ran `npm install` in the server folder
 - **Port conflict:** If port 5000 is busy, change PORT in `server/.env`
 
-## 📊 Future Enhancements
+##  Future Enhancements
 
 If we had more time, we'd add:
 - **IPFS Integration** - Store medical documents on decentralized storage
@@ -327,7 +327,7 @@ If we had more time, we'd add:
 - **Insurance Integration** - Connect with actual TPA systems
 - **ML Model Training** - Fine-tune on historical fraud cases
 
-## 📝 Credits & Acknowledgments
+##  Credits & Acknowledgments
 
 Built for Loop Health Hackathon 2025
 
