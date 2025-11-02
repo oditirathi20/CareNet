@@ -4,7 +4,7 @@
 
 ## 💡 The Problem We're Solving
 
-Healthcare fraud costs India over ₹68 billion annually. Patients often don't know if their prescribed treatments are appropriate or if they're being over-treated. Insurance companies struggle to detect fraudulent claims before payments are made, and doctors lack transparent validation systems to protect themselves from false allegations.
+Healthcare discrepancies costs India over ₹68 billion annually. Patients often don't know if their prescribed treatments are appropriate or if they're being over-treated. Insurance companies struggle to detect fraudulent claims before payments are made, and doctors lack transparent validation systems to protect themselves from false allegations.
 
 **CareNet** bridges this gap by providing an AI-powered platform that validates treatment plans against trusted Indian medical guidelines - with full transparency and explainability.
 
