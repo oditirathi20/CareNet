@@ -344,30 +344,6 @@ Built for Loop Health Hackathon 2025
 - Google Gemini AI
 - PDF Processing Libraries
 
-**Special Thanks:**
-- Loop Health for organizing this hackathon
-- All the open-source contributors whose libraries made this possible
-
----
-
-## 📞 Questions?
-
-If you're reviewing this for the hackathon, here are some things you might wonder:
-
-**Q: Is the blockchain part functional?**  
-A: We have the smart contract code, but for demo purposes, we're using localStorage. The architecture is ready for blockchain integration - just swap localStorage with Web3 calls.
-
-**Q: Are the PDFs actually being read?**  
-A: Yes! Check `server/pdfProcessor.js` - we load and index all 5 PDFs at server startup. The AI queries them for each analysis.
-
-**Q: How accurate is the fraud detection?**  
-A: The AI is as good as the guidelines we feed it. Since we're using official Indian medical documents, the recommendations are evidence-based and auditable.
-
-**Q: Can this scale to production?**  
-A: Absolutely. The RAG system is stateless, the API can handle concurrent requests, and we can easily add a database layer.
-
----
-
 **Thank you for checking out CareNet! We believe that healthcare should be transparent, trustworthy, and accessible to everyone.** 🏥💙
 
 *Making healthcare fair, one AI validation at a time.*
