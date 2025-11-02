@@ -1,6 +1,6 @@
-# CareNet - AI-Powered Healthcare Fraud Detection Platform
+# CareNet
 
-> *Bringing transparency, trust, and explainable AI to healthcare insurance validation*
+> *Bringing awareness, transperancy & trust*
 
 ## 💡 The Problem We're Solving
 
