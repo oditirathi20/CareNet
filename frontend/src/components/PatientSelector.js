@@ -5,13 +5,15 @@ import { getAllPatients, searchPatients as searchStaticPatients } from '../data/
 // Map conditions to doctor specializations
 const conditionToSpecialization = {
   'Type 2 Diabetes': 'General Medicine',
+  'Type 2 Diabetes with Hypertension': 'General Medicine',
   'Chronic Acne': 'Dermatology',
   'Coronary Artery Disease': 'Cardiology',
   'Childhood Asthma': 'Pediatrics',
   'Osteoarthritis': 'Orthopedics',
   'Asthma': 'General Medicine',
   'Chronic Lower Back Pain': 'Orthopedics',
-  'Hypothyroidism': 'General Medicine'
+  'Hypothyroidism': 'General Medicine',
+  'Mild Hypertension': 'General Medicine'
 };
 
 function PatientSelector({ onSelectPatient, doctorSpecialization }) {
